@@ -26,7 +26,7 @@ class pbRequest extends FormRequest
         return [
             'firstname' => 'required|max:30',
             'lastname' => 'required|max:30',
-            'number' => 'required|numeric',
+            'number' => 'required|numeric|min:10',
             'email' => 'required|email',
             'location' => 'max:255',
         ];

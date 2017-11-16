@@ -8,7 +8,7 @@
     </button> -->
 
   </p>
-  <div class="panel-block">
+  <div class="panel-block is-mobile">
     <p class="control has-icons-left">
       <input class="input is-big has-text-primary" type="text" placeholder="search" v-model="searchQuery" >
       <span class="icon is-small is-left">
@@ -21,9 +21,7 @@
 
   <div class="panel-block is-active has-icon"  v-for="(dat,key) in temp">
 <p class="control has-icon">
-    <span class="panel-icon">
-        <i class="fa fa-book"></i>
-      </span>
+  
 
 
  {{dat.firstname}}, {{dat.lastname}}... {{dat.number}}

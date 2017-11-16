@@ -43216,7 +43216,15 @@ var staticRenderFns = [
         _c("div", { staticClass: "content has-text-centered" }, [
           _c("p", [
             _vm._v("\n      VUeJs Phonebook app by "),
-            _c("strong", [_vm._v("abdoumjr")])
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://github.com/abdoumjr/Phonebook/tree/master"
+                }
+              },
+              [_vm._v("abdoumjr")]
+            )
           ])
         ])
       ])
@@ -43286,8 +43294,6 @@ module.exports = Component.exports
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
 //
 //
 //
@@ -44627,7 +44633,7 @@ var render = function() {
             _vm._v("\n    MY CONTATCTS\n    ")
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "panel-block" }, [
+          _c("div", { staticClass: "panel-block is-mobile" }, [
             _c("p", { staticClass: "control has-icons-left" }, [
               _c("input", {
                 directives: [
@@ -44661,9 +44667,8 @@ var render = function() {
               { staticClass: "panel-block is-active has-icon" },
               [
                 _c("p", { staticClass: "control has-icon" }, [
-                  _vm._m(1, true),
                   _vm._v(
-                    "\n\n\n " +
+                    "\n  \n\n\n " +
                       _vm._s(dat.firstname) +
                       ", " +
                       _vm._s(dat.lastname) +
@@ -44760,14 +44765,6 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("span", { staticClass: "icon is-small is-left" }, [
       _c("i", { staticClass: "fa fa-search" })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("span", { staticClass: "panel-icon" }, [
-      _c("i", { staticClass: "fa fa-book" })
     ])
   }
 ]

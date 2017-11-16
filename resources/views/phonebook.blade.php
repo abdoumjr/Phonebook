@@ -22,7 +22,7 @@
 @else
 
 <div class="tile is-parent">
-      <article class="tile is-child notification is-primary">
+      <article class="tile is-child notification is-primary is-focus">
         <p class="title">Hello ! <a class="button is-primary is-loading is-big">Loading</a> </p>
         <p class="subtitle">Welcome to the Phonebook application</p>
         <div class="content">
